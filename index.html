@@ -195,11 +195,21 @@
                 Let's connect! You can reach me at cherrymaedr1600@gmail.com
             </p>
            <form action="https://formsubmit.co/cherrymaedr1600@gmail.com" method="POST">
-               <input type="text" name="name" required placeholder="Your Name">
-               <input type="email" name="email" required placeholder="Your Email">
-               <input type="text" name="subject" required placeholder="Subject">
-               <textarea name="message" rows="6" required placeholder="Your Message"></textarea>
-               <button type="submit" class="btn btn-primary">Send Message</button>
+                <div class="form-group-center">
+                    <input type="text" id="name" name="name" placeholder="Your Name" class="input-field" required>
+                </div>
+                <div class="form-group-center">
+                    <input type="email" id="email" name="email" placeholder="Your Email" class="input-field" required>
+                </div>
+                <div class="form-group-center">
+                    <input type="text" id="subject" name="subject" placeholder="Subject" class="input-field" required>
+                </div>
+                <div class="form-group-center">
+                    <textarea id="message" name="message" rows="6" placeholder="Your Message" class="input-field textarea-field resize-none" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
            </form>
         </div>
     </div>
